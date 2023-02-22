@@ -179,7 +179,7 @@ a{
     margin-top: 3px;
     border: 1px solid transparent;
 }
-#menu a[selected] .light-rect{
+#menu a[selected] .light-rect, #menu a:hover .light-rect{
     border: 1px solid var(--light-color);
 }
 
