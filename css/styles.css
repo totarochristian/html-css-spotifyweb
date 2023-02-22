@@ -92,3 +92,10 @@ main .main-content{
     height: 100%;
     overflow-y: auto;
 }
+main .main-content .call-to-action{
+    width: calc(100% - 230px);
+    height: 80px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
