@@ -3,6 +3,12 @@
 /******************************************************************************/
 :root{
     /* Color variables*/
+    --dark-color: #000000;
+    --dark-grey: #282828;
+    --dark-blue: #141922;
+    --white: #ffffff;
+    --light-color: #adff2f;
+    --light-grey: #a3a3a3;
 
     /* Border variables */
 
@@ -32,3 +38,4 @@ html{
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
