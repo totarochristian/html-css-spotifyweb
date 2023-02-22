@@ -81,6 +81,9 @@ body{
 .text-capitalize{
     text-transform: capitalize;
 }
+.text-center{
+    text-align: center;
+}
 
 /*****************************************************************/
 /***************************** Font ******************************/
@@ -103,8 +106,14 @@ body{
 /***************************** Font ******************************/
 /***************************** size ******************************/
 /*****************************************************************/
+.fs-0-9{
+    font-size: 0.95rem;
+}
 .fs-0-8{
     font-size: 0.8rem;
+}
+.fs-0-7{
+    font-size: 0.7rem;
 }
 .fs-3-5{
     font-size: 3.5rem;
@@ -247,7 +256,7 @@ main #main-content #call-to-action{
 .elems-container .elem{
     width: calc(100% / 6 - 1rem);
     cursor: pointer;
-    margin: 2rem 0;
+    margin: 2rem 0 0.5rem 0;
 }
 .elem .box-image{
     position: relative;
