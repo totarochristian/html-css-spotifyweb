@@ -103,6 +103,9 @@ body{
 .fs-0-8{
     font-size: 0.8rem;
 }
+.fs-3-5{
+    font-size: 3.5rem;
+}
 
 /***************************************************************/
 /************************** Overflow ***************************/
@@ -117,6 +120,9 @@ body{
 /***************************************************************/
 /************************** Opacity ****************************/
 /***************************************************************/
+.opacity-0-p{
+    opacity: 0;
+}
 .opacity-50-p{
     opacity: 50%;
 }
@@ -167,6 +173,9 @@ a{
 .d-f-align-center{
     align-items: center;
     align-content: center;
+}
+.gap-1rem{
+    gap: 1rem;
 }
 
 /*****************************************************************/
@@ -228,4 +237,24 @@ main #main-content #call-to-action{
 }
 #recently-played, #created-for-me, #popular-artists{
     margin: 2rem 0;
+}
+.elems-container .elem{
+    width: calc(100% / 6 - 1rem);
+    cursor: pointer;
+}
+.elem .box-image{
+    position: relative;
+}
+.elem .box-image i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s linear;
+}
+.elem:hover .box-image i{
+    opacity: 100%;
+}
+.elem .box-image img{
+    width: 100%;
 }
