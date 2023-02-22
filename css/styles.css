@@ -63,6 +63,25 @@ body{
 .txt-light-grey{
     color: var(--light-grey);
 }
+/*****************************************************************/
+/**************************** Flexbox ****************************/
+/*****************************************************************/
+.d-flex{
+    display: flex;
+}
+.d-f-column{
+    flex-flow: column;
+}
+.d-f-just-center{
+    justify-content: center;
+}
+.d-f-align-end{
+    align-items: flex-end;
+}
+.d-f-align-center{
+    align-items: center;
+    align-content: center;
+}
 
 /*****************************************************************/
 /**************************** Default ****************************/
