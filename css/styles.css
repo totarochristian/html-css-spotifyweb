@@ -87,3 +87,8 @@ main .main-menu{
     width: 230px;
     min-height: 480px;
 }
+main .main-content{
+    width: calc(100% - 230px);
+    height: 100%;
+    overflow-y: auto;
+}
