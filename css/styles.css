@@ -209,6 +209,12 @@ a{
     padding: 0.8rem 3rem;
     margin-right: 1.5rem;
     border: 1px solid var(--white);
+    transition: all 0.1s linear;
+}
+.btn:hover{
+    padding: 0.9rem 3.1rem;
+    font-size: 0.9rem;
+    border-radius: 30px;
 }
 
 /*****************************************************************/
