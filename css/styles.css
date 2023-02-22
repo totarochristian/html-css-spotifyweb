@@ -87,8 +87,8 @@ body{
 .d-f-just-center{
     justify-content: center;
 }
-.d-f-align-end{
-    align-items: flex-end;
+.d-f-just-end{
+    justify-content: flex-end;
 }
 .d-f-align-center{
     align-items: center;
@@ -110,6 +110,22 @@ body{
 /***************************************************************/
 .opacity-50-p{
     opacity: 50%;
+}
+.opacity-100-p{
+    opacity: 100%;
+}
+
+/*****************************************************************/
+/**************************** Buttons ****************************/
+/*****************************************************************/
+.btn{
+    padding: 0.8rem 3rem;
+    border: 1px solid var(--white);
+    text-decoration: none;
+    margin-right: 1.5rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
 }
 
 /*****************************************************************/
