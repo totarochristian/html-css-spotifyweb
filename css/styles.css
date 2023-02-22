@@ -256,11 +256,16 @@ main #main-content #call-to-action{
     right: 0;
 }
 #sections-container{
+    width: 100%;
     margin-top: var(--call-to-action-height);
     padding: 1.4rem;
 }
 #recently-played, #created-for-me, #popular-artists{
+    width: 100%;
     margin: 2rem 0;
+}
+.elems-container{
+    width: 100%;
 }
 .elems-container .elem{
     width: calc(100% / 6 - 1rem);
@@ -282,4 +287,26 @@ main #main-content #call-to-action{
 }
 .elem .box-image img{
     width: 100%;
+}
+
+/*****************************************************************/
+/***************************** Media *****************************/
+/**************************** Queries ****************************/
+/*****************************************************************/
+@media screen and (max-width: 878px){
+    .elems-container .elem{
+        width: calc(100% / 4 - 1rem);
+    }
+}
+
+@media screen and (max-width: 639px){
+    .elems-container .elem{
+        width: calc(100% / 2 - 1rem);
+    }
+}
+
+@media screen and (max-width: 552px){
+    :root{
+        --main-menu-width: 70px;
+    }
 }
