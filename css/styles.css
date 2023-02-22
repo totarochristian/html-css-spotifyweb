@@ -295,6 +295,13 @@ main #main-content #call-to-action{
 .elem .box-image img{
     width: 100%;
 }
+#main-menu{
+    padding: 1.2rem 1rem 0 1rem;
+}
+.logo img:nth-child(1){
+    width: 65%;
+}
+.logo img:nth-child(2){display: none;}
 
 /*****************************************************************/
 /***************************** Media *****************************/
@@ -314,6 +321,14 @@ main #main-content #call-to-action{
 
 @media screen and (max-width: 552px){
     :root{
-        --main-menu-width: 70px;
+        --main-menu-width: 50px;
+    }
+    #main-menu{
+        padding: 0.35rem 0.65rem 0 0.65rem;
+    }
+    .logo img:nth-child(1){display: none;}
+    .logo img:nth-child(2){
+        display: block;
+        width: 100%;
     }
 }
