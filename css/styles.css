@@ -46,7 +46,7 @@ body{
 .bg-dark-color{
     background-color: var(--dark-color);
 }
-.bg.dark-grey{
+.bg-dark-grey{
     background-color: var(--dark-grey);
 }
 .bg-dark-blue{
