@@ -17,6 +17,7 @@
     /* Size variables */
     --play-bar-height: 90px;
     --main-menu-width: 230px;
+    --call-to-action-height: 85px;
 
     /* Transition variables */
 
@@ -96,6 +97,13 @@ body{
     overflow-y: auto;
 }
 
+/***************************************************************/
+/************************** Opacity ****************************/
+/***************************************************************/
+.opacity-50-p{
+    opacity: 50%;
+}
+
 /*****************************************************************/
 /**************************** Default ****************************/
 /************************** structure ****************************/
@@ -123,7 +131,7 @@ main .main-content{
 }
 main .main-content .call-to-action{
     width: calc(100% - var(--main-menu-width));
-    height: 80px;
+    height: var(--call-to-action-height);
     position: fixed;
     top: 0;
     right: 0;
