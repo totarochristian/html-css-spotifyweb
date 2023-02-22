@@ -249,6 +249,7 @@ main #main-content{
     height: 100%;
 }
 main #main-content #call-to-action{
+    z-index: 1000;
     width: calc(100% - var(--main-menu-width));
     height: var(--call-to-action-height);
     position: fixed;
