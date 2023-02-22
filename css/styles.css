@@ -4,6 +4,7 @@
 :root{
     /* Color variables*/
     --dark-color: #000000;
+    --dark-color-op: #00000080;
     --dark-grey: #282828;
     --dark-blue: #141922;
     --white: #ffffff;
@@ -48,6 +49,9 @@ body{
 /*****************************************************************/
 .bg-dark-color{
     background-color: var(--dark-color);
+}
+.bg-dark-color-op{
+    background-color: var(--dark-color-op);
 }
 .bg-dark-grey{
     background-color: var(--dark-grey);
