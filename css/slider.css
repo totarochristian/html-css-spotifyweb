@@ -7,7 +7,9 @@ input[type="range"].custom-slider {
     height: 5px;
     background: #5a5a5a;
     border-radius: 5px;
-    transform: translate(0, 100%);
+}
+input[type="range"].custom-slider:hover{
+    cursor: pointer;
 }
 /**********************************************************/
 /************************* Input **************************/
@@ -84,13 +86,12 @@ input[type="range"].custom-slider::-ms-track {
 /************************* before *************************/
 /************************* thumb **************************/
 /**********************************************************/
-input[type="range"].custom-slider::-ms-fill-lower { 
-    background: dodgerblue;
-}
 input[type="range"].custom-slider::-moz-range-progress{
     background-color: white;
     height: 5px;
+    border-radius: 5px;
 }
 input[type="range"].custom-slider:hover::-moz-range-progress{
     background-color: var(--light-color);
+    border-radius: 5px;
 }

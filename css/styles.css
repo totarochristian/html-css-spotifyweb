@@ -234,6 +234,9 @@ a{
 .gap-1rem{
     gap: 1rem;
 }
+.gap-1_5rem{
+    gap: 1.5rem;
+}
 .gap-row-2rem{
     row-gap: 2rem;
 }
@@ -393,6 +396,12 @@ main #main-content #call-to-action{
 #play-bar-options { max-width: 250px; }
 #play-bar-music-info img{
     width: 50px;
+}
+#play-bar-options .custom-slider{
+    transform: translate(0, 100%);
+}
+#play-bar-music-status .custom-slider{
+    width: 400px;
 }
 
 /*****************************************************************/
