@@ -87,6 +87,9 @@ body{
 .text-center{
     text-align: center;
 }
+.text-left{
+    text-align: left;
+}
 
 /*****************************************************************/
 /***************************** Font ******************************/
@@ -117,6 +120,9 @@ body{
 }
 .fs-0-7{
     font-size: 0.7rem;
+}
+.fs-0-6{
+    font-size: 0.6rem;
 }
 .fs-2-8{
     font-size: 2.8rem;
@@ -175,6 +181,9 @@ a{
 /***************************************************************/
 /************************** Padding ****************************/
 /***************************************************************/
+.pd-0_6rem{
+    padding: 0.6rem;
+}
 .pd-t-b-0_6rem{
     padding: 0.6rem 0;
 }
@@ -218,6 +227,9 @@ a{
 }
 .gap-0-5rem{
     gap: 0.5rem;
+}
+.gap-0-8rem{
+    gap: 0.8rem;
 }
 .gap-1rem{
     gap: 1rem;
@@ -373,9 +385,15 @@ main #main-content #call-to-action{
     width: 20px;
     height: 20px;
 }
-#play-bar-music-info { width: 15%; }
+#play-bar-music-info { 
+    width: 16%; 
+    max-width: 220px;
+}
 #play-bar-music-status { width: 40%; }
 #play-bar-options { width: 15%; }
+#play-bar-music-info img{
+    width: 50px;
+}
 
 /*****************************************************************/
 /***************************** Media *****************************/
