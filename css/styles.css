@@ -330,6 +330,17 @@ main #main-content #call-to-action{
 /***************************** Media *****************************/
 /**************************** Queries ****************************/
 /*****************************************************************/
+@media screen and (max-height: 170px){
+    #main-content, #main-menu{
+        display: none;
+    }
+    main{
+        height: 0;
+    }
+    #play-bar{
+        height: 100vh;
+    }
+}
 @media screen and (max-width: 878px){
     .elems-container .elem{
         width: calc(100% / 4 - 1rem);
