@@ -172,6 +172,12 @@ a{
 .pd-t-0_6rem{
     padding-top: 0.6rem;
 }
+.pd-t-b-0_25rem{
+    padding: 0.25rem 0;
+}
+.pd-l-0_3rem{
+    padding-left: 0.3rem;
+}
 
 /*****************************************************************/
 /**************************** Flexbox ****************************/
@@ -227,6 +233,14 @@ a{
 }
 #menu a[selected] .light-rect, #menu a:hover .light-rect{
     border: 1px solid var(--light-color);
+}
+.vert-light-rect{
+    height: 35px;
+    border: 2px solid transparent;
+    transform: translate(calc(-1rem - 1px), 0);
+}
+#menu-options a[selected] .vert-light-rect, #menu-options a:hover .vert-light-rect{
+    border: 2px solid var(--light-color);
 }
 
 /*****************************************************************/
@@ -302,6 +316,12 @@ main #main-content #call-to-action{
     width: 65%;
 }
 .logo img:nth-child(2){display: none;}
+#menu-options a{
+    width: 100%;
+}
+#menu-options a img{
+    width: 30px;
+}
 
 /*****************************************************************/
 /***************************** Media *****************************/
