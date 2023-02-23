@@ -456,6 +456,9 @@ main #main-content #call-to-action{
     #play-bar-options{
         display: none;
     }
+    .elems-container{
+        row-gap: 0;
+    }
 }
 @media screen and (max-width: 639px){
     .elems-container .elem{
