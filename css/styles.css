@@ -399,6 +399,7 @@ main #main-content #call-to-action{
     max-width: 220px;
 }
 #play-bar-music-status { 
+    width: 60%;
     max-width: 500px; 
     margin-top: -0.5rem;
 }
@@ -449,14 +450,24 @@ main #main-content #call-to-action{
     .elems-container .elem{
         width: calc(100% / 4 - 1rem);
     }
+    #play-bar-options{
+        display: none;
+    }
 }
-
 @media screen and (max-width: 639px){
     .elems-container .elem{
         width: calc(100% / 2 - 1rem);
     }
+    #play-bar-music-info{
+        display: none;
+    }
+    #play-bar-music-status{
+        width: 100%;
+    }
+    #play-bar{
+        justify-content: center;
+    }
 }
-
 @media screen and (max-width: 552px){
     :root{
         --main-menu-width: 50px;
@@ -483,5 +494,23 @@ main #main-content #call-to-action{
     }
     #profile-download{
         align-items: center;
+    }
+}
+@media screen and (max-width: 552px) and (max-height: 170px){
+    #play-bar{
+        height: 100vh;
+        flex-flow: column;
+    }
+    #play-bar-music-info{
+        display: block;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    #play-bar-music-info #music-data{
+        width: 100%;
+        justify-content: center;
+    }
+    #play-bar-music-info #hearth-folder{
+        display: none;
     }
 }
