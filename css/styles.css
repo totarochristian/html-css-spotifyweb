@@ -356,6 +356,9 @@ main #main-content #call-to-action{
 #profile-download {
     width: 100%;
 }
+#profile-download a:first-child:hover p{
+    color: var(--white);
+}
 #profile-download a:first-child img{
     width: 18px;
 }
