@@ -320,7 +320,7 @@ main #main-content #call-to-action{
     width: 100%;
 }
 #menu-options a img{
-    width: 30px;
+    width: 28px;
 }
 
 /*****************************************************************/
@@ -350,5 +350,8 @@ main #main-content #call-to-action{
     .logo img:nth-child(2){
         display: block;
         width: 100%;
+    }
+    #menu-options p, #menu-options span{
+        display: none;
     }
 }
