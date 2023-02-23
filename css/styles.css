@@ -115,6 +115,9 @@ body{
 .fs-0-7{
     font-size: 0.7rem;
 }
+.fs-2-8{
+    font-size: 2.8rem;
+}
 .fs-3-5{
     font-size: 3.5rem;
 }
@@ -178,6 +181,9 @@ a{
 .pd-l-0_3rem{
     padding-left: 0.3rem;
 }
+.pd-l-0_6rem{
+    padding-left: 0.6rem;
+}
 
 /*****************************************************************/
 /**************************** Flexbox ****************************/
@@ -200,6 +206,9 @@ a{
 }
 .d-f-wrap{
     flex-wrap: wrap;
+}
+.gap-0-5rem{
+    gap: 0.5rem;
 }
 .gap-1rem{
     gap: 1rem;
@@ -327,7 +336,13 @@ main #main-content #call-to-action{
 }
 #menu-options a[selected] p, #menu-options a:hover p{
     color: var(--white);
-} 
+}
+#playlists a{
+    width: 100%;
+}
+#playlists a:hover, #playlists a:hover p, #playlists a:hover i{
+    color: var(--white);
+}
 
 /*****************************************************************/
 /***************************** Media *****************************/
