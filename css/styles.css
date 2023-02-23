@@ -415,6 +415,9 @@ main #main-content #call-to-action{
 #play-bar-music-status .custom-slider{
     width: 400px;
 }
+#play-bar i{
+    cursor: pointer;
+}
 
 /*****************************************************************/
 /***************************** Media *****************************/
