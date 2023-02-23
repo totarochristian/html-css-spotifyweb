@@ -390,7 +390,7 @@ main #main-content #call-to-action{
     max-width: 220px;
 }
 #play-bar-music-status { width: 40%; }
-#play-bar-options { width: 15%; }
+#play-bar-options { max-width: 250px; }
 #play-bar-music-info img{
     width: 50px;
 }
