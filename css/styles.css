@@ -322,6 +322,9 @@ main #main-content #call-to-action{
 #menu-options a img{
     width: 28px;
 }
+#menu-options a[selected] p, #menu-options a:hover p{
+    color: var(--white);
+} 
 
 /*****************************************************************/
 /***************************** Media *****************************/
