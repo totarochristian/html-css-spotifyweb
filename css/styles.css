@@ -402,7 +402,9 @@ main #main-content #call-to-action{
     max-width: 500px; 
     margin-top: -0.5rem;
 }
-#play-bar-options { max-width: 250px; }
+#play-bar-options { 
+    max-width: 250px; 
+}
 #play-bar-music-info img{
     width: 50px;
 }
