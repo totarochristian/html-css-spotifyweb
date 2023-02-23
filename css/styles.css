@@ -59,6 +59,9 @@ body{
 .bg-dark-blue{
      background-color: var(--dark-blue);
 }
+.bg-light-grey{
+    background-color: var(--light-grey);
+}
 
 /*****************************************************************/
 /*************************** Txt color ***************************/
@@ -159,6 +162,9 @@ a{
 /*************************** Border ******************************/
 /**************************** radius *****************************/
 /*****************************************************************/
+.bdr-15-px{
+    border-radius: 15px;
+}
 .bdr-20-px{
     border-radius: 20px;
 }
@@ -199,6 +205,9 @@ a{
 }
 .d-f-just-end{
     justify-content: flex-end;
+}
+.d-f-just-space-between{
+    justify-content: space-between;
 }
 .d-f-align-center{
     align-items: center;
@@ -271,7 +280,8 @@ main{
 }
 main #main-menu{
     width: var(--main-menu-width);
-    min-height: 480px;
+    height: 100%;
+    padding: 1.2rem 1rem 0 1rem;
 }
 main #main-content{
     width: calc(100% - var(--main-menu-width));
@@ -321,9 +331,6 @@ main #main-content #call-to-action{
 .elem:hover .box-image img{
     filter: brightness(.4);
 }
-#main-menu{
-    padding: 1.2rem 1rem 0 1rem;
-}
 .logo img:nth-child(1){
     width: 65%;
 }
@@ -337,11 +344,24 @@ main #main-content #call-to-action{
 #menu-options a[selected] p, #menu-options a:hover p{
     color: var(--white);
 }
+#playlists>div{
+    min-width: 100px;
+}
 #playlists a{
     width: 100%;
 }
 #playlists a:hover, #playlists a:hover p, #playlists a:hover i{
     color: var(--white);
+}
+#profile-download {
+    width: 100%;
+}
+#profile-download a:first-child img{
+    width: 18px;
+}
+#profile-download a:last-child img{
+    width: 20px;
+    height: 20px;
 }
 
 /*****************************************************************/
