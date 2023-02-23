@@ -373,6 +373,9 @@ main #main-content #call-to-action{
     width: 20px;
     height: 20px;
 }
+#play-bar-music-info { width: 15%; }
+#play-bar-music-status { width: 40%; }
+#play-bar-options { width: 15%; }
 
 /*****************************************************************/
 /***************************** Media *****************************/
