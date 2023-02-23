@@ -334,7 +334,7 @@ main #main-content #call-to-action{
 .logo img:nth-child(1){
     width: 65%;
 }
-.logo img:nth-child(2){display: none;}
+.logo img:nth-child(2){ display: none; }
 #menu-options a{
     width: 100%;
 }
@@ -420,10 +420,10 @@ main #main-content #call-to-action{
     :root{
         --main-menu-width: 50px;
     }
-    #main-menu{
+    main #main-menu{
         padding: 0.35rem 0.65rem 0 0.65rem;
     }
-    .logo img:nth-child(1){display: none;}
+    .logo img:nth-child(1){ display: none; }
     .logo img:nth-child(2){
         display: block;
         width: 100%;
@@ -433,5 +433,14 @@ main #main-content #call-to-action{
     }
     #playlists{
         display: none;
+    }
+    #profile-download p{
+        display: none;
+    }
+    #profile-download hr{
+        opacity: 0;
+    }
+    #profile-download{
+        align-items: center;
     }
 }
