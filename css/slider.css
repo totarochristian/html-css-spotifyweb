@@ -1,0 +1,96 @@
+/*****************************************************************/
+/***************************** Custom ****************************/
+/***************************** slider ****************************/
+/*****************************************************************/
+input[type="range"].custom-slider {
+    -webkit-appearance: none;
+    height: 5px;
+    background: #5a5a5a;
+    border-radius: 5px;
+    transform: translate(0, 100%);
+}
+/**********************************************************/
+/************************* Input **************************/
+/************************* Thumb **************************/
+/**********************************************************/
+input[type="range"].custom-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: white;
+    cursor: ew-resize;
+    box-shadow: 0 0 2px 0 #555;
+    transition: background .3s ease-in-out;
+    visibility: hidden;
+}
+input[type="range"].custom-slider::-moz-range-thumb {
+    -webkit-appearance: none;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: white;
+    cursor: ew-resize;
+    box-shadow: 0 0 2px 0 #555;
+    transition: background .3s ease-in-out;
+    visibility: hidden;
+}
+input[type="range"].custom-slider::-ms-thumb {
+    -webkit-appearance: none;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: white;
+    cursor: ew-resize;
+    box-shadow: 0 0 2px 0 #555;
+    transition: background .3s ease-in-out;
+    visibility: hidden;
+}
+input[type="range"].custom-slider:hover::-webkit-slider-thumb{
+    visibility: visible;
+}
+input[type="range"].custom-slider:hover::-moz-range-thumb{
+    visibility: visible;
+}
+input[type="range"].custom-slider:hover::-ms-thumb{
+    visibility: visible;
+}
+
+/**********************************************************/
+/************************* Input **************************/
+/************************* Track **************************/
+/**********************************************************/
+input[type=range].custom-slider::-webkit-slider-runnable-track{
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+}
+input[type=range].custom-slider::-moz-range-track{
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+}
+input[type="range"].custom-slider::-ms-track {
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+}
+
+/**********************************************************/
+/************************* Track **************************/
+/************************* before *************************/
+/************************* thumb **************************/
+/**********************************************************/
+input[type="range"].custom-slider::-ms-fill-lower { 
+    background: dodgerblue;
+}
+input[type="range"].custom-slider::-moz-range-progress{
+    background-color: white;
+    height: 5px;
+}
+input[type="range"].custom-slider:hover::-moz-range-progress{
+    background-color: var(--light-color);
+}
