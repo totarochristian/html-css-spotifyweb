@@ -112,6 +112,18 @@ body{
 /***************************** Font ******************************/
 /***************************** size ******************************/
 /*****************************************************************/
+.fs-3-5{
+    font-size: 3.5rem;
+}
+.fs-2-8{
+    font-size: 2.8rem;
+}
+.fs-1-6{
+    font-size: 1.6rem;
+}
+.fs-1{
+    font-size: 1rem;
+}
 .fs-0-9{
     font-size: 0.95rem;
 }
@@ -123,12 +135,6 @@ body{
 }
 .fs-0-6{
     font-size: 0.6rem;
-}
-.fs-2-8{
-    font-size: 2.8rem;
-}
-.fs-3-5{
-    font-size: 3.5rem;
 }
 
 /***************************************************************/
@@ -392,7 +398,10 @@ main #main-content #call-to-action{
     width: 16%; 
     max-width: 220px;
 }
-#play-bar-music-status { width: 40%; }
+#play-bar-music-status { 
+    max-width: 500px; 
+    margin-top: -0.5rem;
+}
 #play-bar-options { max-width: 250px; }
 #play-bar-music-info img{
     width: 50px;
