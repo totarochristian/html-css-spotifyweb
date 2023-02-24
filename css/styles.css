@@ -417,6 +417,9 @@ main #main-content #call-to-action{
 #play-bar i{
     cursor: pointer;
 }
+#hearth-folder i:hover{
+    color: var(--white);
+}
 
 /*****************************************************************/
 /***************************** Media *****************************/
