@@ -395,7 +395,6 @@ main #main-content #call-to-action{
     height: 20px;
 }
 #play-bar-music-info { 
-    width: 16%; 
     max-width: 220px;
 }
 #play-bar-music-status { 
@@ -464,6 +463,15 @@ main #main-content #call-to-action{
     .elems-container{
         row-gap: 0;
     }
+    #play-bar-music-status{
+        width: 80%;
+    }
+    #play-bar-music-status div:last-child{
+        width: 100%;;
+    }
+    #play-bar-music-status div:last-child input{
+        width: 80%;
+    }
 }
 @media screen and (max-width: 639px){
     .elems-container .elem{
@@ -505,6 +513,15 @@ main #main-content #call-to-action{
     }
     #profile-download{
         align-items: center;
+    }
+}
+@media screen and (max-width: 321px){
+    .elems-container .elem{
+        width: 100%;
+    }
+    #call-to-action a{
+        border-radius: 40px;
+        padding: 0.6rem 1rem;
     }
 }
 @media screen and (max-width: 552px) and (max-height: 170px){
