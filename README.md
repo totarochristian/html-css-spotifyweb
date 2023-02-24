@@ -46,27 +46,27 @@ Users should be able to:
 
 #### Menu and playbar
 
-![](./screenshot/menu-playbar.gif
+![](./screenshot/menu-playbar.gif)
 
 #### Playbar
 
-![](./screenshot/playbar.gif
+![](./screenshot/playbar.gif)
 
 #### Home
 
-![](./screenshot/Home.gif
+![](./screenshot/Home.gif)
 
 #### Rankings page
 
-![](./screenshot/rankings.gif
+![](./screenshot/rankings.gif)
 
-![](./screenshot/reduce-rankings.gif
+![](./screenshot/reduce-rankings.gif)
 
 #### Browse page
 
-![](./screenshot/browse-everything.gif
+![](./screenshot/browse-everything.gif)
 
-![](./screenshot/reduce-browse-everything.gif
+![](./screenshot/reduce-browse-everything.gif)
 
 ### Links
 
