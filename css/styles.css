@@ -425,6 +425,10 @@ main #main-content #call-to-action{
     cursor: pointer;
 }
 #music-data p:hover{ color: var(--white); }
+#play-bar #play:hover{
+    border-radius: 50%;
+    box-shadow: 0 0 5px white;
+}
 
 /*****************************************************************/
 /***************************** Media *****************************/
