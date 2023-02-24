@@ -367,7 +367,7 @@ main #main-content #call-to-action{
     margin: 10% 0;
     opacity: 30%;
 }
-.elem:hover .cover{
+#browse-everything .elem:hover .box-image img, .elem:hover .cover{
     filter: brightness(.7);
 }
 #rank-1{
