@@ -329,7 +329,7 @@ main #main-content #call-to-action{
     width: 100%;
 }
 .elems-container .elem{
-    width: calc(100% / 6 - 1rem);
+    width: calc(100% / 8 - 1rem);
     cursor: pointer;
     margin: 2rem 0 0.5rem 0;
 }
@@ -465,6 +465,11 @@ main #main-content #call-to-action{
 @media screen and (max-height: 600px){
     #playlists #list-playlists{
         max-height: 50%;
+    }
+}
+@media screen and (max-width: 1200px){
+    .elems-container .elem{
+        width: calc(100% / 6 - 1rem);
     }
 }
 @media screen and (max-width: 878px){
