@@ -417,14 +417,14 @@ main #main-content #call-to-action{
 #play-bar i{
     cursor: pointer;
 }
+#play-bar i:hover{
+    color: var(--white);
+}
 #music-data h3:hover, #music-data p:hover{
     text-decoration: underline;
     cursor: pointer;
 }
 #music-data p:hover{ color: var(--white); }
-#hearth-folder i:hover{
-    color: var(--white);
-}
 
 /*****************************************************************/
 /***************************** Media *****************************/
