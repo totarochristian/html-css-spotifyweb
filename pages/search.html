@@ -11,9 +11,9 @@
     <!-- Include fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- End inclusion -->
-    <link rel="shortcut icon" href="./assets/img/others/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/slider.css">
+    <link rel="shortcut icon" href="../assets/img/others/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/slider.css">
     <title>Spotify Web</title>
 </head>
 <body>
@@ -22,23 +22,23 @@
             <nav id="main-menu" class="bg-dark-color txt-light-grey">
                 <div id="main-menu-general-info" class="d-flex d-f-column">
                     <div class="logo">
-                        <img src="./assets/img/menu-icons/logo.svg" alt="Logo">
-                        <img src="./assets/img/menu-icons/logo-small.svg" alt="Logo">
+                        <img src="../assets/img/menu-icons/logo.svg" alt="Logo">
+                        <img src="../assets/img/menu-icons/logo-small.svg" alt="Logo">
                     </div>
                     <div id="menu-options" class="d-flex d-f-column d-f-align-center pd-t-b-0_6rem">
-                        <a href="./index.html" class="d-flex d-f-align-center pd-t-b-0_25rem" selected>
+                        <a href="../index.html" class="d-flex d-f-align-center pd-t-b-0_25rem">
                             <span class="vert-light-rect"></span>
-                            <img src="./assets/img/menu-icons/home.svg" alt="Home icon">
+                            <img src="../assets/img/menu-icons/home.svg" alt="Home icon">
                             <p class="txt-light-grey fs-0-8 fw-semibold pd-l-0_3rem">Home</p>
                         </a>
-                        <a href="./pages/search.html" class="d-flex d-f-align-center pd-t-b-0_25rem">
+                        <a href="#" class="d-flex d-f-align-center pd-t-b-0_25rem" selected>
                             <span class="vert-light-rect"></span>
-                            <img src="./assets/img/menu-icons/search.svg" alt="Search icon">
+                            <img src="../assets/img/menu-icons/search.svg" alt="Search icon">
                             <p class="txt-light-grey fs-0-8 fw-semibold pd-l-0_3rem">Cerca</p>
                         </a>
                         <a href="#" class="d-flex d-f-align-center pd-t-b-0_25rem">
                             <span class="vert-light-rect"></span>
-                            <img src="./assets/img/menu-icons/libreria.svg" alt="Library icon">
+                            <img src="../assets/img/menu-icons/libreria.svg" alt="Library icon">
                             <p class="txt-light-grey fs-0-8 fw-semibold pd-l-0_3rem">La tua libreria</p>
                         </a>
                     </div>
@@ -61,12 +61,12 @@
                 </div>
                 <div id="profile-download" class="d-flex d-f-column">
                     <a href="#" class="d-flex d-f-align-center pd-t-b-0_6rem">
-                        <img src="./assets/img/menu-icons/download.svg" alt="Download icon">
+                        <img src="../assets/img/menu-icons/download.svg" alt="Download icon">
                         <p class="txt-light-grey fs-0-8 fw-semibold pd-l-0_6rem">Installa app</p>
                     </a>
                     <hr class="txt-light-grey">
                     <a href="#" class="d-flex d-f-align-center pd-t-b-0_6rem">
-                        <img src="./assets/img/menu-icons/profile.svg" alt="Download icon" class="bg-light-grey bdr-15-px">
+                        <img src="../assets/img/menu-icons/profile.svg" alt="Download icon" class="bg-light-grey bdr-15-px">
                         <p class="txt-white fs-0-9 fw-semibold pd-l-0_6rem text-capitalize">John doe</p>
                     </a>
                 </div>
@@ -76,34 +76,12 @@
                     <a href="#" class="btn text-uppercase txt-white fw-semibold bdr-20-px fs-0-8">Effettua l'upgrade</a>
                 </div>
                 <div id="sections-container">
-                    <nav id="menu" class="d-flex d-f-just-center d-f-wrap gap-row-2rem">
-                        <a href="#" class="d-flex d-f-column d-f-align-center" selected>
-                            <span class="text-uppercase txt-light-grey fs-0-8 fw-semibold">In evidenza</span>
-                            <span class="light-rect"></span>
-                        </a>
-                        <a href="#" class="d-flex d-f-column d-f-align-center">
-                            <span class="text-uppercase txt-light-grey fs-0-8 fw-semibold">Classifiche</span>
-                            <span class="light-rect"></span>
-                        </a>
-                        <a href="#" class="d-flex d-f-column d-f-align-center">
-                            <span class="text-uppercase txt-light-grey fs-0-8 fw-semibold">Generi e mood</span>
-                            <span class="light-rect"></span>
-                        </a>
-                        <a href="#" class="d-flex d-f-column d-f-align-center">
-                            <span class="text-uppercase txt-light-grey fs-0-8 fw-semibold">Nuove uscite</span>
-                            <span class="light-rect"></span>
-                        </a>
-                        <a href="#" class="d-flex d-f-column d-f-align-center">
-                            <span class="text-uppercase txt-light-grey fs-0-8 fw-semibold">Scopri</span>
-                            <span class="light-rect"></span>
-                        </a>
-                    </nav>
-                    <section id="recently-played">
-                        <h2 class="txt-white">Ascoltate di recente</h2>
+                    <section id="browse-everything">
+                        <h2 class="txt-white">Sfoglia tutto</h2>
                         <div class="elems-container d-flex d-f-wrap gap-1rem">
                             <article class="elem d-flex d-f-column d-f-align-center text-center">
                                 <div class="box-image">
-                                    <img src="./assets/img/albums/apriti-sesamo.jpg" alt="Apriti Sesamo cover">
+                                    <img src="../assets/img/albums/apriti-sesamo.jpg" alt="Apriti Sesamo cover">
                                     <i class="fa-regular fa-circle-play txt-white fs-3-5 opacity-0-p"></i>
                                 </div>
                                 <h3 class="txt-white pd-t-0_6rem fs-0-9 text-capitalize">Apriti sesamo</h3>
@@ -111,7 +89,7 @@
                             </article>
                             <article class="elem d-flex d-f-column d-f-align-center text-center">
                                 <div class="box-image">
-                                    <img class="bdr-50-p" src="./assets/img/albums/Flavio-Cuccurullo.jpeg" alt="Flavio Cuccurullo cover">
+                                    <img class="bdr-50-p" src="../assets/img/albums/Flavio-Cuccurullo.jpeg" alt="Flavio Cuccurullo cover">
                                     <i class="fa-regular fa-circle-play txt-white fs-3-5 opacity-0-p"></i>
                                 </div>
                                 <h3 class="txt-white pd-t-0_6rem fs-0-9 text-capitalize">Flavio cuccurullo</h3>
@@ -119,7 +97,7 @@
                             </article>
                             <article class="elem d-flex d-f-column d-f-align-center text-center">
                                 <div class="box-image">
-                                    <img src="./assets/img/albums/brani-piacciono.jpg" alt="Brani che ti piacciono cover">
+                                    <img src="../assets/img/albums/brani-piacciono.jpg" alt="Brani che ti piacciono cover">
                                     <i class="fa-regular fa-circle-play txt-white fs-3-5 opacity-0-p"></i>
                                 </div>
                                 <h3 class="txt-white pd-t-0_6rem fs-0-9">Brani che ti piacciono</h3>
@@ -127,7 +105,7 @@
                             </article>
                             <article class="elem d-flex d-f-column d-f-align-center text-center">
                                 <div class="box-image">
-                                    <img class="bdr-50-p" src="./assets/img/albums/franco-battiato.jpg" alt="Franco Battiato cover">
+                                    <img class="bdr-50-p" src="../assets/img/albums/franco-battiato.jpg" alt="Franco Battiato cover">
                                     <i class="fa-regular fa-circle-play txt-white fs-3-5 opacity-0-p"></i>
                                 </div>
                                 <h3 class="txt-white pd-t-0_6rem fs-0-9 text-capitalize">Franco battiato</h3>
@@ -135,7 +113,7 @@
                             </article>
                             <article class="elem d-flex d-f-column d-f-align-center text-center">
                                 <div class="box-image">
-                                    <img src="./assets/img/albums/universi-paralleli.jpg" alt="Universi paralleli cover">
+                                    <img src="../assets/img/albums/universi-paralleli.jpg" alt="Universi paralleli cover">
                                     <i class="fa-regular fa-circle-play txt-white fs-3-5 opacity-0-p"></i>
                                 </div>
                                 <h3 class="txt-white pd-t-0_6rem fs-0-9">Universi paralleli</h3>
@@ -143,7 +121,7 @@
                             </article>
                             <article class="elem d-flex d-f-column d-f-align-center text-center">
                                 <div class="box-image">
-                                    <img src="./assets/img/albums/circle-seasons.jpg" alt="Circle of the seasons cover">
+                                    <img src="../assets/img/albums/circle-seasons.jpg" alt="Circle of the seasons cover">
                                     <i class="fa-regular fa-circle-play txt-white fs-3-5 opacity-0-p"></i>
                                 </div>
                                 <h3 class="txt-white pd-t-0_6rem fs-0-9">Circle of the Seasons</h3>
@@ -151,7 +129,7 @@
                             </article>
                             <article class="elem d-flex d-f-column d-f-align-center text-center">
                                 <div class="box-image">
-                                    <img src="./assets/img/albums/lisa-thiel-radio" alt="Lisa Thiel radio cover">
+                                    <img src="../assets/img/albums/lisa-thiel-radio" alt="Lisa Thiel radio cover">
                                     <i class="fa-regular fa-circle-play txt-white fs-3-5 opacity-0-p"></i>
                                 </div>
                                 <h3 class="txt-white pd-t-0_6rem fs-0-9 text-capitalize">Lisa thiel</h3>
@@ -159,100 +137,11 @@
                             </article>
                             <article class="elem d-flex d-f-column d-f-align-center text-center">
                                 <div class="box-image">
-                                    <img class="bdr-50-p" src="./assets/img/albums/omnia.jpeg" alt="OMNIA cover">
+                                    <img class="bdr-50-p" src="../assets/img/albums/omnia.jpeg" alt="OMNIA cover">
                                     <i class="fa-regular fa-circle-play txt-white fs-3-5 opacity-0-p"></i>
                                 </div>
                                 <h3 class="txt-white pd-t-0_6rem fs-0-9 text-uppercase">Omnia</h3>
                                 <p class="pd-t-0_6rem fs-0-7 fw-bold text-capitalize">Artista</p>
-                            </article>
-                        </div>
-                    </section>
-                    <section id="created-for-me">
-                        <h2 class="txt-white">Creato per John Doe</h2>
-                        <p class="pd-t-0_6rem fs-0-8 fw-semibold">Più ascolti, più accurati saranno i suggerimenti.</p>
-                        <div class="elems-container d-flex d-f-wrap gap-1rem">
-                            <article class="elem d-flex d-f-column d-f-align-center text-center">
-                                <div class="box-image">
-                                    <img src="./assets/img/created-for-you/radar.jpeg" alt="Radar cover">
-                                    <i class="fa-regular fa-circle-play txt-white fs-3-5 opacity-0-p"></i>
-                                </div>
-                                <h3 class="txt-white pd-t-0_6rem fs-0-9 text-capitalize">Release radar</h3>
-                            </article>
-                            <article class="elem d-flex d-f-column d-f-align-center text-center">
-                                <div class="box-image">
-                                    <img src="./assets/img/created-for-you/mixdaily.jpeg" alt="Daily mix 1 cover">
-                                    <i class="fa-regular fa-circle-play txt-white fs-3-5 opacity-0-p"></i>
-                                </div>
-                                <h3 class="txt-white pd-t-0_6rem fs-0-9 text-capitalize">Daily mix 1</h3>
-                            </article>
-                            <article class="elem d-flex d-f-column d-f-align-center text-center">
-                                <div class="box-image">
-                                    <img src="./assets/img/created-for-you/mixdaily-2.jpeg" alt="Daily mix 2 cover">
-                                    <i class="fa-regular fa-circle-play txt-white fs-3-5 opacity-0-p"></i>
-                                </div>
-                                <h3 class="txt-white pd-t-0_6rem fs-0-9 text-capitalize">Daily mix 2</h3>
-                            </article>
-                            <article class="elem d-flex d-f-column d-f-align-center text-center">
-                                <div class="box-image">
-                                    <img src="./assets/img/created-for-you/mixdaily-3.jpeg" alt="Daily mix 3 cover">
-                                    <i class="fa-regular fa-circle-play txt-white fs-3-5 opacity-0-p"></i>
-                                </div>
-                                <h3 class="txt-white pd-t-0_6rem fs-0-9 text-capitalize">Daily mix 3</h3>
-                            </article>
-                            <article class="elem d-flex d-f-column d-f-align-center text-center">
-                                <div class="box-image">
-                                    <img src="./assets/img/created-for-you/mixdaily-4.jpeg" alt="Daily mix 4 cover">
-                                    <i class="fa-regular fa-circle-play txt-white fs-3-5 opacity-0-p"></i>
-                                </div>
-                                <h3 class="txt-white pd-t-0_6rem fs-0-9 text-capitalize">Daily mix 4</h3>
-                            </article>
-                            <article class="elem d-flex d-f-column d-f-align-center text-center">
-                                <div class="box-image">
-                                    <img src="./assets/img/created-for-you/mixdaily-5.jpeg" alt="Daily mix 5 cover">
-                                    <i class="fa-regular fa-circle-play txt-white fs-3-5 opacity-0-p"></i>
-                                </div>
-                                <h3 class="txt-white pd-t-0_6rem fs-0-9 text-capitalize">Daily mix 5</h3>
-                            </article>
-                            <article class="elem d-flex d-f-column d-f-align-center text-center">
-                                <div class="box-image">
-                                    <img src="./assets/img/created-for-you/mixdaily-6.jpeg" alt="Daily mix 6 cover">
-                                    <i class="fa-regular fa-circle-play txt-white fs-3-5 opacity-0-p"></i>
-                                </div>
-                                <h3 class="txt-white pd-t-0_6rem fs-0-9 text-capitalize">Daily mix 6</h3>
-                            </article>
-                        </div>
-                    </section>
-                    <section id="popular-artists">
-                        <h2 class="txt-white">Artisti più popolari</h2>
-                        <p class="pd-t-0_6rem fs-0-8 fw-semibold">Più ascolti, più accurati saranno i suggerimenti.</p>
-                        <div class="elems-container d-flex d-f-wrap gap-1rem">
-                            <article class="elem d-flex d-f-column d-f-align-center text-center">
-                                <div class="box-image">
-                                    <img class="bdr-50-p" src="./assets/img/artists/maneskin.png" alt="Maneskin cover">
-                                    <i class="fa-regular fa-circle-play txt-white fs-3-5 opacity-0-p"></i>
-                                </div>
-                                <h3 class="txt-white pd-t-0_6rem fs-0-9 text-capitalize">Maneskin</h3>
-                            </article>
-                            <article class="elem d-flex d-f-column d-f-align-center text-center">
-                                <div class="box-image">
-                                    <img class="bdr-50-p" src="./assets/img/artists/sfera-ebbasta.png" alt="Sfera Ebbasta cover">
-                                    <i class="fa-regular fa-circle-play txt-white fs-3-5 opacity-0-p"></i>
-                                </div>
-                                <h3 class="txt-white pd-t-0_6rem fs-0-9 text-capitalize">Sfera ebbasta</h3>
-                            </article>
-                            <article class="elem d-flex d-f-column d-f-align-center text-center">
-                                <div class="box-image">
-                                    <img class="bdr-50-p" src="./assets/img/artists/youg.jpeg" alt="Youg cover">
-                                    <i class="fa-regular fa-circle-play txt-white fs-3-5 opacity-0-p"></i>
-                                </div>
-                                <h3 class="txt-white pd-t-0_6rem fs-0-9 text-capitalize">Youg</h3>
-                            </article>
-                            <article class="elem d-flex d-f-column d-f-align-center text-center">
-                                <div class="box-image">
-                                    <img class="bdr-50-p" src="./assets/img/artists/einaudi.jpeg" alt="Einaudi cover">
-                                    <i class="fa-regular fa-circle-play txt-white fs-3-5 opacity-0-p"></i>
-                                </div>
-                                <h3 class="txt-white pd-t-0_6rem fs-0-9 text-capitalize">Einaudi</h3>
                             </article>
                         </div>
                     </section>
@@ -263,7 +152,7 @@
             <div id="play-bar-music-info">
                 <div class="d-flex d-f-just-space-between d-f-align-center">
                     <div id="music-data" class="d-flex d-f-align-center text-center">
-                        <img src="./assets/img/albums/apriti-sesamo.jpg" alt="Apriti sesamo cover">
+                        <img src="../assets/img/albums/apriti-sesamo.jpg" alt="Apriti sesamo cover">
                         <div class="d-flex d-f-column text-left pd-0_6rem">
                             <h3 class="txt-white fs-0-8 text-capitalize">Apriti sesamo</h3>
                             <p class="txt-light-grey fs-0-7 fw-bold text-capitalize">Franco battiato</p>
