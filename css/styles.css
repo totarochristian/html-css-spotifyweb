@@ -73,6 +73,9 @@ body{
 .txt-light-grey{
     color: var(--light-grey);
 }
+.txt-light-color{
+    color: var(--light-color);
+}
 
 /*****************************************************************/
 /***************************** Text ******************************/
@@ -341,12 +344,16 @@ main #main-content #call-to-action{
 }
 .elem .box-image i{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    bottom: 8%;
+    right: 8%;
     transition: all 0.3s linear;
+    background-color: var(--dark-color);
+    border-radius: 50%;
 }
 .elem:hover .box-image i{
+    opacity: 80%;
+}
+.elem:hover .box-image i:hover{
     opacity: 100%;
 }
 .elem .box-image img{
