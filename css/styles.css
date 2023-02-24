@@ -423,6 +423,11 @@ main #main-content #call-to-action{
 /***************************** Media *****************************/
 /**************************** Queries ****************************/
 /*****************************************************************/
+@media screen and (max-height: 124px){
+    #play-bar-music-status{
+        display: none;
+    }
+}
 @media screen and (max-height: 170px){
     #main-content, #main-menu{
         display: none;
