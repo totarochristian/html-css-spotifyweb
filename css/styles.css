@@ -416,6 +416,7 @@ main #main-content #call-to-action{
 }
 #play-bar i{
     cursor: pointer;
+    transition: all 0.2s linear;
 }
 #play-bar i:hover{
     color: var(--white);
@@ -427,7 +428,8 @@ main #main-content #call-to-action{
 #music-data p:hover{ color: var(--white); }
 #play-bar #play:hover{
     border-radius: 50%;
-    box-shadow: 0 0 5px white;
+    box-shadow: 0 0 6px white;
+    transition-duration: 0.1s;
 }
 
 /*****************************************************************/
