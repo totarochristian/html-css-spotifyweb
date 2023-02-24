@@ -431,6 +431,13 @@ main #main-content #call-to-action{
     box-shadow: 0 0 6px white;
     transition-duration: 0.1s;
 }
+#browse-everything .elems-container{
+    padding-top: 2rem;
+}
+#browse-everything .elems-container .elem{
+    margin: 0;
+    width: calc(100% / 8 - 0.5rem);
+}
 
 /*****************************************************************/
 /***************************** Media *****************************/
@@ -471,10 +478,16 @@ main #main-content #call-to-action{
     .elems-container .elem{
         width: calc(100% / 6 - 1rem);
     }
+    #browse-everything .elems-container .elem{
+        width: calc(100% / 6 - 0.5rem);
+    }
 }
 @media screen and (max-width: 878px){
     .elems-container .elem{
         width: calc(100% / 4 - 1rem);
+    }
+    #browse-everything .elems-container .elem{
+        width: calc(100% / 4 - 0.5rem);
     }
     #play-bar-options{
         display: none;
@@ -495,6 +508,9 @@ main #main-content #call-to-action{
 @media screen and (max-width: 639px){
     .elems-container .elem{
         width: calc(100% / 2 - 1rem);
+    }
+    #browse-everything .elems-container .elem{
+        width: calc(100% / 2 - 0.5rem);
     }
     #play-bar-music-info{
         display: none;
@@ -535,7 +551,7 @@ main #main-content #call-to-action{
     }
 }
 @media screen and (max-width: 321px){
-    .elems-container .elem{
+    .elems-container .elem, #browse-everything .elems-container .elem{
         width: 100%;
     }
     #call-to-action a{
