@@ -421,6 +421,7 @@ main #main-content #call-to-action{
     text-decoration: underline;
     cursor: pointer;
 }
+#music-data p:hover{ color: var(--white); }
 #hearth-folder i:hover{
     color: var(--white);
 }
